@@ -1,0 +1,140 @@
+/* left section styling  -----------------------*/
+.left-section {
+  padding-left: 15px;
+  /* position: fixed; */
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.left-parent-div {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.left-nav-div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.left-parent-div .logo {
+  padding-top: 25px;
+}
+
+.menubar .icon {
+  padding-top: 60px;
+}
+
+.left-section a {
+  font-size: 18px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 3.4fr 1.7fr;
+  gap: 10px;
+}
+
+.left-section {
+  /* background-color: aquamarine; */
+}
+
+/* right section styling -----------------------------*/
+
+.right-section {
+  /* background-color: blueviolet; */
+}
+
+.myaccount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.myaccount-details {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.suggested {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-data {
+  display: flex;
+}
+
+.right-section {
+  margin-right: 80px;
+}
+
+.footer {
+  margin-top: 50px;
+}
+
+.footer p {
+  font-size: 15px;
+}
+
+/* middle part styling ------------------------------------*/
+
+.middle-section {
+  /* background-color: red; */
+}
+.middle-section .stories {
+  display: flex;
+  gap: 15px;
+  justify-content: space-evenly;
+  margin-top: 15px;
+  padding: 0 80px;
+}
+
+.middle-section .stories p {
+  margin-top: -2px;
+}
+
+.middle-section .all-content {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-icon {
+  display: flex;
+  gap: 10px;
+}
+
+.middle-section-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.comment {
+  display: flex;
+  justify-content: space-between;
+}
+
+.each-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  background-color: pink;
+  gap: 5px;
+}
